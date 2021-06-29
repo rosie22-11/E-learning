@@ -1,0 +1,391 @@
+body{
+    margin: 0; padding: 0; background-color: #E1D89F;
+    
+}
+.navbar{
+    background-color:  #9e352d;
+}
+.nav{
+    margin-inline: 1rem;
+}
+@media (max-width: 200px) {
+    .navbar i{
+        position:absolute; 
+    }
+}
+
+.navbar img{
+    background-color: white; border-radius: 50%;
+    height: 50px; width: 50px; padding: 4px; margin: 10px;
+}
+.navbar i{
+    float: right; margin: 14px; color: white;
+}
+.navbar .dropdown  ,.navbar button{
+    display: none;
+}
+
+.content{
+     padding: 1rem 0; margin: 7rem 0;
+}
+.left-content h1{
+    margin-inline: 10px; text-align: center;
+}
+.left-content p{
+    margin-inline: 2rem;
+}
+.left-content button{
+    margin-left: 2rem; padding: 10px 20px; border: 1px solid black;
+    border-radius: 3px; font-weight: 500;
+    color: #9e352d; font-size: 15px; background-color: transparent;
+}
+.right-content {
+    border: 1px solid black; margin: 2rem; text-align: center;
+    padding-block: 12px ;
+
+}
+.right-content img{
+    max-width: 50%;
+}
+
+@media (min-width: 1023px){
+    .navbar i{
+        display: none;
+    }
+    .navbar .dropdown  ,.navbar button{
+        display: block; float: right;
+    }
+    .navbar a{
+        text-decoration: none; color: white; font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 10px;
+    }
+
+    .nav .dropdown,.nav button{
+       position: relative; right: 20px; top: 30px;
+    }
+
+    .nav button{
+        border: 1px solid black; padding: 12px 15px ; position: relative;
+        top: 18px; font-weight: 200; color: white; border-radius: 3px;
+        background-color: transparent;
+    }
+    .content{
+        display: flex;
+        flex-grow: 2; 
+    }
+    .right-content{
+    width: 50%;
+    }
+    .left-content {
+        max-width: 50%;
+    }
+
+    #container{
+        display: flex; 
+    }
+    .left-content1{
+        max-width: 70%; 
+    }
+    .right-content1 iframe{
+        float: right; 
+    }
+    .right-content1 {
+        display: flex; flex-wrap: wrap;
+    }
+  
+    .head-content h1{
+        margin-bottom: 5rem;
+    }
+    .cards{
+        display: flex; flex-wrap: wrap;
+    }
+    .cards .card{
+        margin-right: 3rem;
+    }
+    .doubt-container{
+        display: flex; justify-content: center;
+    }
+    .mobile1{
+        margin-inline: 2rem;
+    }
+    .mobile1 p{
+        font-weight: 700; background-color: white;width: 60%;
+        padding: 5px;
+    }
+
+    .mobile1 button{
+        background-color: #9e352d; color: white;
+         padding:5px 33px; border-radius: 7px;
+        font-size: medium; border: 1px solid transparent;
+    }
+
+    #container{
+        margin-block: 15rem ;
+    }
+    #container1{
+        margin-block: 15rem ;
+    }
+    #container2{
+        margin-block: 15rem ;
+    }
+    #container3{
+        margin-block: 15rem ;
+    }
+    #container4{
+        margin-block: 15rem ;
+    }
+    #footer span{
+        margin-inline: 2rem ;
+    }
+    #footer img{
+        margin-right: 13px;
+    }
+
+}
+@media (max-width: 1023px){
+    #container1{
+        margin-block: 8rem ;
+    }
+    #container2{
+        margin-block: 8rem ;
+    }
+    #container3{
+        margin-block: 8rem ;
+    }
+    #container4{
+        margin-block: 8rem ;
+    }
+}
+#container{
+    margin-inline: 2rem; border: 1px solid transparent; background-color: transparent;
+    padding: 50px; box-shadow: 0px 0px 6px grey; border-radius: 5px;
+    
+}
+
+.left-content1 button{
+    background-color: #9e352d; color: white; border-radius: 3px;
+    padding: 15px 20px; border: none; margin: 3px; font-weight: 700;
+    max-width: 70%;
+}
+
+.left-content1,.right-content1{
+    margin-inline: 10px;
+}
+
+.right-content1 iframe{
+    max-width: 100%; text-align: center; margin-bottom: 1rem;
+}
+.left-content1 h2{
+    border-bottom: 1px dashed #9e352d; width: 70px; color: #9e352d;
+}
+.right-content1 .description{
+    background-color: white; border-radius: 4px; padding: 3px;
+    width: 500px; line-height:1px; text-align:center; opacity: .7;
+    max-width: 100%;
+}
+
+#container1{
+    margin-inline: 2rem; border: 1px solid transparent; 
+    box-shadow: 0px 0px 6px grey; padding: 50px;
+}
+
+.cards, .head-content{
+    margin-inline: 1rem;
+}
+
+ 
+.card{
+    background-color: white; padding: 8px; margin-bottom: 10px;
+    border-left:4px solid #9e352d; 
+
+}
+
+#container2{
+    margin-inline: 2rem; border: 1px solid transparent;
+    padding-inline: 2rem;  box-shadow: 0px 0px 6px grey; padding: 20px;
+}
+
+.videos iframe{
+    max-width: 100%; margin-bottom: 10px; margin-right: 10px ;
+    border-radius: 15px;
+}
+
+.video-content{
+    margin-block: 3rem;
+}
+.video-content p{
+    max-width: 80%;
+}
+
+#container3{
+    margin-inline: 2rem ; border: 1px solid transparent;
+    box-shadow: 0px 0px 6px grey; padding: 50px;
+}
+
+
+.doubt-container{
+max-width: 100%;
+}
+
+.doubt-container .mobile1 img{
+    max-height: 100%; max-width: 100%;
+}
+@media (max-width: 600px) {
+    .mobile1 img{
+        display: none;
+    }
+    .mobile1 p{
+    padding: 1rem;font-size: 20px; border: 1px solid transparent; 
+    font-size: 500; box-shadow: 0px 0px 3px grey;
+       }
+    .mobile1 button{
+        background-color: #9e352d; padding: 8px 20px;
+        color: white; border-radius: 7px; font-size: medium;
+        border: 1px solid transparent; font-style: italic;
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 1200px){
+    .doubt-container{
+        display: flex;  justify-content: start;
+    }
+    .mobile1{
+        margin-inline: 1rem;
+    }
+
+    .mobile1 p{
+        font-weight: 700; background-color: white;width: 60%;
+        padding: 5px;
+    }
+
+    .mobile1 button{
+        background-color: #9e352d; color: white;
+         padding:5px 33px; border-radius: 7px;
+        font-size: medium; border: 1px solid transparent;
+    }
+}
+
+@media (min-width: 1200px){
+    .doubt-content{
+        text-align: center;
+    }
+}
+
+#container4{
+    margin-inline: 2rem; border: 1px solid transparent; box-shadow: 0px 0px 6px grey;
+    padding: 50px;
+}
+
+.rating{
+    display: flex; justify-content:space-around;
+}
+.rate .number{
+    background-color: #9e352d; color: white; 
+    height: 70px; width: 70px; border-radius: 50%; font-weight: 600; 
+}
+
+.number h1{
+    position: relative; left: 10px; top:10px;
+}
+.rate p{
+    text-align: center; font-style: italic;
+}
+
+.review .student1{
+    margin-inline: 1rem ; border: 1px solid transparent; box-shadow: 0px 0px 3px grey; margin-bottom: 10px ;
+    padding:0 10px;
+}
+
+.desc1{
+    margin: 10px;padding: 5px; font-weight: 600; color: #9e352d; border-bottom: 1px dashed #9e352d; width: 50px;
+}
+.student1 .name{
+    font-weight: bold;
+}
+
+@media (min-width: 800px){
+    .review{
+        display: flex; margin-top: 20px;
+    }
+}
+
+#footer{
+padding: 80px;
+}
+#footer img{
+    height: 50px; width: 50px; padding: 4px; background-color: #9e352d; border-radius: 50%;
+}
+
+#footer b{
+    position: relative; bottom: 20px; font-size: 20px;
+}
+.footer-link{
+    display: flex; justify-content:space-between; 
+ }
+ .footer-link h4{
+     color: black; opacity: .4;
+ }
+.link1 a{
+    display: block; margin: 5px; 
+}
+
+ 
+.link2 a{
+    display: block; margin: 5px;
+}
+.link3 a{
+    display: block; margin: 5px;
+}
+
+.install button{
+    border: 1px solid transparent; background-color: #9e352d; color: white;
+    padding: 10px 20px; font-weight: 700; letter-spacing: 1px; margin-top: 10px ;
+    border-radius: 5px;
+}
+
+@media (min-width: 800px) {
+  #footer{
+      display: flex; justify-content: space-between;
+  }
+  .footer-link .link1,.link2,.link3{
+    margin-inline: 1rem ; 
+  }
+
+  .install button{
+    padding: 15px 30px; font-size: x-large; border-radius: 7px;
+  }
+}
+
+#footer1{
+    display: flex; margin-inline: 2rem; justify-content: space-around;
+    padding: 20px; border-top: 1px solid black;
+}
+.contact {
+    margin-top: 12px ;
+}
+.contact i{
+    padding: 0 10px;
+}
+#footer1 p{
+    font-size: 13px;
+}
+@media (max-width:600px){
+    #footer1 p{
+        display: none;
+    }
+    #footer1{
+        background-color: white;
+    }
+    .contact{
+        text-align: center;
+    }
+    .contact i{
+        padding: 5px 2rem; background-color: #f3f3f5; border-radius: 20%;
+    }
+}
+
+.dropdown a:hover{
+    background-color: white; color: #9e352d; font-weight: 600;
+}
