@@ -223,6 +223,13 @@ body{
     box-shadow: 0px 0px 6px grey; padding: 50px;
 }
 
+@media (max-width: 850px){
+    #footer b{
+        font-size: 13px; 
+    }
+}
+
+
 
 .doubt-container{
 max-width: 100%;
@@ -319,7 +326,7 @@ padding: 80px;
 }
 
 #footer b{
-    position: relative; bottom: 20px; font-size: 20px;
+    position: relative; bottom: 20px; 
 }
 .footer-link{
     display: flex; justify-content:space-between; 
